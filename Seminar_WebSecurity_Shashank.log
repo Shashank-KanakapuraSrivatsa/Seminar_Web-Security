@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.13)  15 MAY 2020 21:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.13)  15 MAY 2020 21:58
 entering extended mode
 **./Seminar_WebSecurity_Shashank.tex
 (Seminar_WebSecurity_Shashank.tex
@@ -2042,7 +2042,13 @@ chapter 3.
 
 ]
 chapter 4.
-) (chapters/chap_5.tex [7
+)
+Overfull \hbox (79.11336pt too wide) in paragraph at lines 2--39
+\T1/lmr/m/it/10.95 Note to the su-per-vi-sor : I will elab-o-rately dis-cuss th
+e ac-tual ap-proach here  
+ []
+
+(chapters/chap_5.tex [7
 
 ]
 chapter 5.
@@ -2054,7 +2060,13 @@ chapter 6.
 
 ]
 chapter 7.
-) [10
+)
+Overfull \hbox (21.38556pt too wide) in paragraph at lines 2--45
+\T1/lmr/m/it/10.95 Note to the su-per-vi-sor : This sec-tion is to con-clude th
+e re-port  
+ []
+
+[10
 
 ]
 chapter without number
@@ -2095,7 +2107,7 @@ Here is how much of TeX's memory you used:
  50210 multiletter control sequences out of 15000+200000
  583956 words of font info for 65 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,13n,81p,10089b,881s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 67i,13n,81p,10089b,879s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Shash/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.e
 nc}{C:/Users/Shash/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.e
 nc}<C:/Users/Shash/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr1
@@ -2105,7 +2117,7 @@ lm/lmro10.pfb><C:/Users/Shash/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
 lic/lm/lmss10.pfb><C:/Users/Shash/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
 /public/lm/lmss12.pfb><C:/Users/Shash/AppData/Local/Programs/MiKTeX 2.9/fonts/t
 ype1/public/lm/lmssbx10.pfb>
-Output written on Seminar_WebSecurity_Shashank.pdf (12 pages, 234969 bytes).
+Output written on Seminar_WebSecurity_Shashank.pdf (12 pages, 240578 bytes).
 PDF statistics:
  185 PDF objects out of 1000 (max. 8388607)
  36 named destinations out of 1000 (max. 500000)

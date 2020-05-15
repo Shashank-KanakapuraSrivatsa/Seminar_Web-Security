@@ -1,0 +1,45 @@
+% Hintergrund-Makro
+\newcommand\BackgroundPic{
+\put(0,0){
+\parbox[b][\paperheight]{\paperwidth}{%
+\vfill
+\centering
+\includegraphics[width=\paperwidth,height=\paperheight]{images/images_front}%
+\vfill
+}}}
+
+\AddToShipoutPicture*{\BackgroundPic}
+\begin{titlepage}
+\makeatletter
+
+\enlargethispage{3cm}
+
+\begin{minipage}[b]{1\linewidth}
+	\sffamily
+	\includegraphics[scale=0.5]{images/images_upb_logo}
+  	\vspace*{8cm}
+  	
+	\textbf{\LARGE {\@title}}\\
+  
+	\Large{\@author}\\
+	
+% 	\vspace*{35mm}
+	\vspace{4cm}
+	\normalsize{
+	Seminar report\@~~--~~\@date\@.\\
+	System Security Group.\\}
+	\newline
+	\normalsize{
+	\begin{tabular}{@{}ll@{}}
+	Supervisors: 	& \textbf{Prof.~Dr-Ing.~Juraj Somorovsky}\\
+					& University of Paderborn\\
+					& Paderborn, Germany\\
+					& juraj.somorovsky@upb.de
+	\end{tabular}
+	}
+\end{minipage}
+
+
+\makeatother
+\end{titlepage}
+\ClearShipoutPicture

@@ -1,0 +1,68 @@
+\RequirePackage{fix-cm,cmap}
+
+\documentclass[
+fontsize=11pt,
+paper=a4,
+abstract=true,
+numbers=noenddot,
+listof=totoc,
+bibliography=totoc,
+twoside,
+open=right,
+cleardoublepage=plain,
+parskip=half+, % comment this out if you do not want an empty half line between paragraphs, but please read the KomaScript Guide and search for parskip (around page 82): ftp://ftp.dante.de/pub/tex/macros/latex/contrib/koma-script/scrguide.pdf
+BCOR=1cm, % Bindekorrektur: Change this accordingly, also read the KomaScript Guide! Make sure you read the guide.
+]{scrreprt}
+
+\input{preamble}
+
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+
+\begin{document}
+%% switch to roman paginating for the acknowledgements, table of contents etc.
+\pagenumbering{roman} % uncomment this if you like it
+
+%% title page --- made out of expressions defined above
+\input{frontpage}
+
+\pagenumbering{arabic} %switches to arabic numbers for the rest of the text
+\setcounter{page}{1}
+
+
+
+\begin{abstract}
+Internet has become an integral part of the modern world and it is extremely difficult to imagine a world without internet. One of the most significant activity on the internet is exchange of data between computers, generally referred to as Clients and Servers. There are a huge number of formats in which the data can be transferred over internet and many new formats are being introduced. To organize and govern such data transfers, there are several protocols defined by reputed researchers and organisations. One such prominent protocol is Hyper Text Transfer Protocol(HTTP), where a Client submits a request to the Server over the internet and the Server responds to the Client with approriate data or message.\\
+Like several other protocols, HTTP also contains some vulnerabilities which can be exploited by malicious attackers and thus it becomes extremely necessary to identify such vulnerabilities. Security experts or \textit{White hat hackers} help to identify vulnerabilities present in protocols such as HTTP and notify the concerning organisations or individuals about the same. This helps to fix the vulnerabilities present and thus prevent information leakage. There are several vulnerabilities that have been identified in the past and many of these problems are already addressed. In this report, we talk about a relatively new technique known as 'HTTP Desync Attack' which is developed to exploit the vulnerability in HTTP protocol. In this technique, the attacker tricks the Server into believing that the malicious request is actually a part of a normal user`s request and thus allows the attacker to gain control over the request. This report reviews HTTP Desync Attacks in detail and further evaluates it to understand the pros and cons of the technique. 
+
+\end{abstract}
+
+\section{Introduction}
+
+If an attacker is able to snoop in on the data being exchanged, it can be used for malicious purposes. It can contain personal information of a person or an organisation, confidential data of goverments and organisations, financial data and so on.\\
+
+HTTP has been constantly improved and has become an important protocol to secure the data that is transmitted over the internet. However, as the growth of internet increases the need for securing these data transfers also increases with it.\\
+
+\section{Background}
+\begin{itemize}
+	\item HTTP\cite{b1} : 
+	\item HTTP 1.1 :
+	\item HTTP Headers :
+\end{itemize}
+\section{Problem Statement}
+\section{Approach}
+\section{Case Studies}
+\section{Evaluation}
+\section{Advantages and Disadvantages}
+\section{Future Work}
+\section{Conclusion}
+\begin{thebibliography}{00}
+	\bibitem{b1} https://tools.ietf.org/html/rfc7231 
+	
+\end{thebibliography}	
+
+\end{document}

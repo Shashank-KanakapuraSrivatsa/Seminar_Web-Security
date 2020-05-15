@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.13)  15 MAY 2020 18:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.13)  15 MAY 2020 21:52
 entering extended mode
 **./Seminar_WebSecurity_Shashank.tex
 (Seminar_WebSecurity_Shashank.tex
@@ -120,6 +120,12 @@ Package: tocbasic 2019/10/12 v3.27 KOMA-Script package (handling toc-files)
 Package tocbasic Info: omitting babel extension for `toc'
 (tocbasic)             because of feature `nobabel' available
 (tocbasic)             for `toc' on input line 137.
+Class scrreprt Info: You've used standard option `oneside'.
+(scrreprt)           This is correct!
+(scrreprt)           Internally I'm using `twoside=false'.
+(scrreprt)           If you'd like to set the option with \KOMAoptions,
+(scrreprt)           you'd have to use `twoside=false' there
+(scrreprt)           instead of `oneside', too.
 Class scrreprt Info: File `scrsize11pt.clo' used to setup font sizes on input l
 ine 2417.
 
@@ -127,15 +133,22 @@ ine 2417.
 e11pt.clo"
 File: scrsize11pt.clo 2019/10/12 v3.27 KOMA-Script font size class option (11pt
 )
-<<ot1.cmap>>)
+)
 ("C:\Users\Shash\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\typear
 ea.sty"
 Package: typearea 2019/10/12 v3.27 KOMA-Script package (type area)
 \ta@bcor=\skip42
 \ta@div=\count80
+Package typearea Info: You've used standard option `oneside'.
+(typearea)             This is correct!
+(typearea)             Internally I'm using `twoside=false'.
+(typearea)             If you'd like to set the option with \KOMAoptions,
+(typearea)             you'd have to use `twoside=false' there
+(typearea)             instead of `oneside', too.
 \ta@hblk=\skip43
 \ta@vblk=\skip44
 \ta@temp=\skip45
+<<ot1.cmap>>
 \footheight=\skip46
 Package typearea Info: These are the values describing the layout:
 (typearea)             DIV  = 10
@@ -143,8 +156,8 @@ Package typearea Info: These are the values describing the layout:
 (typearea)             \paperwidth      = 597.50793pt
 (typearea)              \textwidth      = 398.33864pt
 (typearea)              DIV departure   = -1%
-(typearea)              \evensidemargin = 41.54105pt
-(typearea)              \oddsidemargin  = 13.08827pt
+(typearea)              \evensidemargin = 41.54103pt
+(typearea)              \oddsidemargin  = 41.54103pt
 (typearea)             \paperheight     = 845.04694pt
 (typearea)              \textheight     = 595.80026pt
 (typearea)              \topmargin      = -25.16531pt
@@ -1955,26 +1968,17 @@ Package pdftex.def Info: images/images_front.png  used on input line 44.
 
 
 {C:/Users/Shash/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./images/im
-ages_front.png> <./images/images_upb_logo.pdf>]) [1
+ages_front.png> <./images/images_upb_logo.pdf>]) (chapters/chap_0.texpdfTeX war
+ning (ext4): destination with the same identifier (name{page.1}) has been alrea
+dy used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.5 \end{abstract}
+                   [1
 
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 46--47
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
-
- []
-
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 5
-2.
-("C:\Users\Shash\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ts1lmr.fd"
-File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-[2]
-chapter without number
+]) (chapters/chap_1.tex
+chapter 1.
 
 Class scrreprt Warning: \float@addtolists detected!
 (scrreprt)              Implementation of \float@addtolist became
@@ -1990,38 +1994,120 @@ Class scrreprt Warning: \float@addtolists detected!
 (scrreprt)              a package that still implements the
 (scrreprt)              deprecated \float@addtolist interface .
 
-[3
+
+Overfull \hbox (35.82588pt too wide) in paragraph at lines 7--8
+\T1/lmr/m/n/10.95 these pro-to-cols to bet-ter equip the world in tack-ling thi
+s men-ace. 
+ []
+
+[2
+
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 68.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 68.
+Overfull \hbox (20.81966pt too wide) in paragraph at lines 13--14
+\T1/lmr/m/n/10.95 in-for-ma-tion dis-cussed till then. We fi-nally give a con-n
+clu-sion. 
+ []
+
+) (chapters/chap_2.tex [3]
+chapter 2.
+
+Overfull \hbox (43.41832pt too wide) in paragraph at lines 6--7
+\T1/lmr/m/n/10.95 1.0. This ver-sion in-cludes sev-eral im-prove-ments, few of 
+which are : 
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 8
+.
+("C:\Users\Shash\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ts1lmr.fd"
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Overfull \hbox (4.28357pt too wide) in paragraph at lines 17--18
+\T1/lmr/m/n/10.95 tains the re-quested in-for-ma-tion, re-source and sta-tus co
+de. 
+ []
+
+[4
+
+])
+Overfull \hbox (84.90723pt too wide) in paragraph at lines 31--35
+\T1/lmr/m/n/10.95 It is the in-for-ma-tion be-ing trans-mit-ted and the re-spon
+se mes-sage re-ceived.  
+ []
+
+(chapters/chap_3.tex [5]
+chapter 3.
+) (chapters/chap_4.tex [6
+
+]
+chapter 4.
+) (chapters/chap_5.tex [7
+
+]
+chapter 5.
+) (chapters/chap_6.tex [8
+
+]
+chapter 6.
+) (chapters/chap_7.tex [9
+
+]
+chapter 7.
+) [10
+
+]
+chapter without number
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
+[]\T1/lmr/m/n/10.95 https://www.gartner.com/en/newsroom/press-releases/2018-08-
+15-gartner-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
+\T1/lmr/m/n/10.95 forecasts-worldwide-information-security-spending-to-exceed-1
+24-billion-in-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+[]\T1/lmr/m/n/10.95 https://i.blackhat.com/USA-19/Wednesday/us-19-Kettle-HTTP-D
+esync-
+ []
+
+[11
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 58.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 58.
  (Seminar_WebSecurity_Shashank.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 68.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 68.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 58.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 58.
 Package rerunfilecheck Info: File `Seminar_WebSecurity_Shashank.out' has not ch
 anged.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 46614 strings out of 492450
- 911851 string characters out of 3120004
- 1100327 words of memory out of 3000000
- 50181 multiletter control sequences out of 15000+200000
+ 46687 strings out of 492450
+ 913480 string characters out of 3120004
+ 1103317 words of memory out of 3000000
+ 50210 multiletter control sequences out of 15000+200000
  583956 words of font info for 65 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,13n,81p,10089b,886s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 67i,13n,81p,10089b,881s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Shash/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.e
 nc}{C:/Users/Shash/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.e
 nc}<C:/Users/Shash/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr1
 0.pfb><C:/Users/Shash/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/l
 mri10.pfb><C:/Users/Shash/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
-lm/lmss10.pfb><C:/Users/Shash/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
-lic/lm/lmss12.pfb><C:/Users/Shash/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
-/public/lm/lmssbx10.pfb>
-Output written on Seminar_WebSecurity_Shashank.pdf (4 pages, 187276 bytes).
+lm/lmro10.pfb><C:/Users/Shash/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
+lic/lm/lmss10.pfb><C:/Users/Shash/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/lm/lmss12.pfb><C:/Users/Shash/AppData/Local/Programs/MiKTeX 2.9/fonts/t
+ype1/public/lm/lmssbx10.pfb>
+Output written on Seminar_WebSecurity_Shashank.pdf (12 pages, 234969 bytes).
 PDF statistics:
- 109 PDF objects out of 1000 (max. 8388607)
- 17 named destinations out of 1000 (max. 500000)
- 127 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 185 PDF objects out of 1000 (max. 8388607)
+ 36 named destinations out of 1000 (max. 500000)
+ 167 words of extra memory for PDF output out of 10000 (max. 10000000)
 

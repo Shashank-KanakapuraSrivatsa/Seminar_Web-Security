@@ -10,7 +10,6 @@ bibliography=totoc,
 twoside,
 open=right,
 cleardoublepage=plain,
-clearemptydoublepage,
 parskip=half+, % comment this out if you do not want an empty half line between paragraphs, but please read the KomaScript Guide and search for parskip (around page 82): ftp://ftp.dante.de/pub/tex/macros/latex/contrib/koma-script/scrguide.pdf
 BCOR=1cm, % Bindekorrektur: Change this accordingly, also read the KomaScript Guide! Make sure you read the guide.
 ]{scrreprt}
@@ -26,15 +25,25 @@ BCOR=1cm, % Bindekorrektur: Change this accordingly, also read the KomaScript Gu
 
 \begin{document}
 
-\begin{abstract}
-	Internet has become an integral part of the modern world and it is extremely difficult to imagine a world without internet. One of the most significant activity on the internet is exchange of data between computers, generally referred to as Clients and Servers. There are a huge number of formats in which the data can be transferred over internet and many new formats are being introduced. To organize and govern such data transfers, there are several protocols defined by reputed researchers and organisations. One such prominent protocol is Hyper Text Transfer Protocol(HTTP), where a Client submits a request to the Server over the internet and the Server responds to the Client with approriate data or message.\\
-	Like several other protocols, HTTP also contains some vulnerabilities which can be exploited by malicious attackers and thus it becomes extremely necessary to identify such vulnerabilities. Security experts or \textit{White hat hackers} help to identify vulnerabilities present in protocols such as HTTP and notify the concerning organisations or individuals about the same. This helps to fix the vulnerabilities present and thus prevent information leakage. There are several vulnerabilities that have been identified in the past and many of these problems are already addressed. In this report, we talk about a relatively new technique known as 'HTTP Desync Attack' which is developed to exploit the vulnerability in HTTP protocol. In this technique, the attacker tricks the Server into believing that the malicious request is actually a part of a normal user`s request and thus allows the attacker to gain control over the request. This report reviews HTTP Desync Attacks in detail and further evaluates it to understand the pros and cons of the technique. 
-	
-\end{abstract}
+%% title page --- made out of expressions defined above
+\input{frontpage}
+\input{chapters/chap_0}
+\pagenumbering{arabic} %switches to arabic numbers for the rest of the text
+\input{chapters/chap_1}
 
-\cleardoublepage
+\input{chapters/chap_2}
 
-\chapter{Introduction}
+\input{chapters/chap_3}
+
+\input{chapters/chap_4}
+
+\input{chapters/chap_5}
+
+\input{chapters/chap_6}
+
+
+
+\section{Introduction}
 
 If an attacker is able to snoop in on the data being exchanged, it can be used for malicious purposes. It can contain personal information of a person or an organisation, confidential data of goverments and organisations, financial data and so on.\\
 

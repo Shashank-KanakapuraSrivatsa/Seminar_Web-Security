@@ -86,8 +86,10 @@ x-nr-external-service: external
 Increasing the \textsc{Content-Length} header can reveal more and more information, until the entire victim request is parsed. 
 
 \section{Store}
-Once we explore the possible methods of poisoning the servers, we have two possibilities. One is to attack the victim or to store their data. In the store phase, we mainly aim to store the data revealed by the response to a victim's request. Once the server is poisoned with the malicious prefix we introduce, it gets appended to the next request. If a normal user (victim) sends this next request, their data can be stored and then we can make the application reveal their sensitive information. For this to work, the application needs to support some kind of data storage. 
+Once we explore the possible methods of poisoning the servers, we have two possibilities. One is to attack the victim or to store their data. In the store phase, we mainly aim to store the data revealed by the response to a victim's request. Once the server is poisoned with the malicious prefix we introduce, it gets appended to the next request. If a normal user (victim) sends this next request, their data can be stored and then we can make the application reveal their sensitive information. \\
+For this method to work, the application needs to support some kind of data storage. If this is supported, the malicious prefix we send can be carefully crafted to contain a storage request. When this is appended to victim's request, it is possible to force the application to store the victim's information such as cookies/headers. 
 \subsection{Case Study for \textit{Store} phase}
+Figure referenced from \cite{b6} demonstrates an example of storing victim's information.
 
 
 \section{Attack}

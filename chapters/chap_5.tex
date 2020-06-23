@@ -60,8 +60,25 @@ If the target request looks as in figure \ref{fig:Confirm_Request}, then two typ
 \end{itemize}
 
 \section{Explore}
-Once we have established the fact a target system is vulnerable for request smuggling attacks and the servers can be poisoned, we have to explore the ways in which an attack can be carried out. Explore phase aims to gather sensitive information which will help in attacking the target system.  
+Once we have established the fact that a target system is vulnerable for request smuggling attacks and the servers can be poisoned, we have to explore the ways in which an attack can be carried out. Explore phase aims to gather sensitive information which will help in attacking the target system. \\
 \subsection{Case Study for \textit{Explore} phase}
+\begin{figure}
+	\includegraphics{images/Explore_Request}
+	\caption{Explore - Request}
+	\label{fig:Explore_Request}
+\end{figure}
+\begin{verbatim}
+Please ensure that your email and password are correct.
+<input id="email" value="asdfPOST /login HTTP/1.1
+Host: login.newrelic.com
+X-Forwarded-For: 81.139.39.150
+X-Forwarded-Proto: https
+X-TLS-Bits: 128
+X-TLS-Cipher: ECDHE-RSA-AES128-GCM-SHA256
+X-TLS-Version: TLSv1.2
+x-nr-external-service: external
+\end{verbatim}
+
 \section{Store}
 \subsection{Case Study for \textit{Store} phase}
 \section{Attack}

@@ -61,7 +61,8 @@ If the target request looks as in figure \ref{fig:Confirm_Request}, then two typ
 
 \section{Explore}
 Once we have established the fact that a target system is vulnerable for request smuggling attacks and the servers can be poisoned, we have to explore the ways in which an attack can be carried out. Explore phase aims to gather sensitive information which will help in attacking the target system. \\
-There are several HTTP request headers which are often re-written by the frontend servers while transmitting the request. Though we try to change these headers manually, the frontend still re-writes these headers. For example, X-Forwarded-Host and X-Forwarded-For. This kind of configuration usually makes it difficult to by-pass such re-writes because the smuggled request may be missing these headers and can cause the system to exhibit unexpected behaviour.
+There are several HTTP request headers which are often re-written by the frontend servers while transmitting the request. Though we try to change these headers manually, the frontend still re-writes these headers. For example, X-Forwarded-Host and X-Forwarded-For. This kind of configuration usually makes it difficult to by-pass such re-writes because the smuggled request may be missing these headers and can cause the system to exhibit unexpected behaviour. \\
+One method to navigate across such header re-writes is to gradually gain visibility into these hidden headers by sending numerous investigative requests, observing the responses and further modifying the requests everytime before re-sending. This method is followed until the response reveals some information about the hidden headers, which we can use for our advantage. 
 \subsection{Case Study for \textit{Explore} phase}
 \begin{figure}
 	\includegraphics{images/Explore_Request}

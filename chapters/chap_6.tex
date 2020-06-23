@@ -5,5 +5,7 @@ The author in \cite{b6} has not only proposed techniques to carry out HTTP Desyn
 	\item Forcing the frontend servers to use HTTPS/2 \cite{b15} while communicating with backend. 
 	\item Disabling backend connection reuse.
 	\item Same webserver software with identical configuration can be used to run all the servers in a chain. 
-	\item 
+	\item Frontend server can be configured to normalize ambiguous requests and then route them forward. 
+	\item Rejecting ambiguous requests at the backend and dropping the corresponding connection is one option but is not viable as it affects the regular traffic. 
+	\item There are tools which can correct the \textsc{Content-Length} header before sending requests. These can be effective against request smuggling. 
 \end{itemize}

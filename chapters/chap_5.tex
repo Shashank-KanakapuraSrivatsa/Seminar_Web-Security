@@ -11,7 +11,7 @@ The author in \cite{b6} proposes a step approach to carry out desynchronization 
 	\caption{Phases of request smuggling}
 	\label{fig:Phases}
 \end{figure}
-\\
+\mbox{}
 We will now look at each of the phases in detail:
 \section{Detect}
 The first step is to detect when a server will be vulnerable to desynchronization. A simple method here is to send a request with malicious data and poison the backend. Subsequent back to back requests are then sent to the same backend server. If the subsequent requests get an unexpected or erroneous response, we can assume that the response was due to the malicious prefix sent with the first request.  \\

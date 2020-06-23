@@ -45,13 +45,13 @@ Once we are sure that a system is vulnerable for request smuggling, we need to c
 \end{figure}
 If the target request looks as in figure \ref{fig:Confirm_Request}, then two types of socket poisoning are possible:
 \begin{itemize}
-	\item \textbf{CL.TE : } 
+	\item \textbf{CL.TE : } The request created for CL.TE poisoning is basically aiming to force a 404 response to the follow-up victim request. 
 	\begin{figure}
 		\includegraphics{images/Confirm_CL.TE}
 		\caption{Confirm - CL.TE Poisoning}
 		\label{fig:Confirm-CL.TE Poisoning}
 	\end{figure}
-	\item \textbf{TE.CL : }
+	\item \textbf{TE.CL : } This is similar to CL.TE but the attacker needs to specify all the headers and ensure that the length of the malicious prefix larger than the body.
 	\begin{figure}
 		\includegraphics{images/Confirm_TE.CL}
 		\caption{Confirm - TE.CL Poisoning}

@@ -104,5 +104,11 @@ The malicious prefix was crafted to target the Trello's profile-edit endpoint an
 When the prefix got appended to the victim's request, their cookies and headers were routed to the test account and the same were displayed in that account. See figure \ref{fig:Store_Response} (Referenced from \cite{b6})\\
 
 \section{Attack}
-After exploring the poisoning options, another further option is to directly carry out the attack on the victims by triggering a harmful response. 
+After exploring the poisoning options, another further option is to directly carry out the attack on the victims by triggering a harmful response. \\
+Two primary methods for attacks are :
+\begin{itemize}
+	\item Trigger harmful response : Send malicious prefix that can 'attack', wait for the victim's request to get appended and then trigger harmful response. 
+	\item Web-cache poisoning : Send both 'attack' and 'victim' request and then expect the response to be stored in a web cache. When any other user hits the same url, the web cache will serve the harmful response to all those users. 
+\end{itemize}
+
 \subsection{Case Study for \textit{Attack} phase}

@@ -24,7 +24,7 @@ To tackle this problem, the author in \cite{b6} proposes an approach which uses 
 \end{figure}
 
 Consider the example for \textbf{CL.TE} in figure \ref{fig:CL.TE}. As \textcolor{myred}{Q} is not a valid chunk size, the frontend will forward only the information highlighted in \textcolor{mygreen}{green} and the backend will timeout waiting for next valid chunk size. This observable delay is sufficient to infer that the system has a vulnerability. \\
-Consider another example for \textbf{TE.CL} in figure \ref{fig:TE.CL}. In this request \textcolor{mygreen}{0} is explicitly placed to force the server into considering it as the \textit{terminating chunk}.
+Consider another example for \textbf{TE.CL} in figure \ref{fig:TE.CL}. In this request \textcolor{mygreen}{0} is explicitly placed to force the server into considering it as the \textit{terminating chunk}. As a result, the server will timeout waiting for \textcolor{myred}{X}.
 \begin{figure}
 	\includegraphics{images/TE.CL}
 	\caption{TE.CL}

@@ -34,9 +34,7 @@ Consider another example for \textbf{TE.CL} in figure \ref{fig:TE.CL}. In this r
 These observable delays are sufficient to infer that the system has a vulnerability for request smuggling.\\
 
 \section{Confirm}
-Consider the example for \textbf{CL.TE} in figure \ref{fig:CL.TE}. As \textcolor{myred}{Q} is not a valid chunk size, the frontend will forward only the information highlighted in \textcolor{mygreen}{green} and the backend will timeout waiting for next valid chunk size. \\
-Consider another example for \textbf{TE.CL} in figure \ref{fig:TE.CL}. In this request, \textcolor{mygreen}{0} is explicitly placed to force the server into considering it as the \textit{terminating chunk}. As a result, the server will timeout waiting for \textcolor{myred}{X}.\\
-These observable delays are sufficient to infer that the system has a vulnerability for request smuggling.\\
+Once we are sure that a system is vulnerable for request smuggling, we need to confirm the same with the help of responses that serve as visible proofs.  
 \section{Explore}
 \section{Store}
 \section{Attack}

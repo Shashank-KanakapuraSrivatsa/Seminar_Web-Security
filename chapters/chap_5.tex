@@ -43,7 +43,21 @@ Once we are sure that a system is vulnerable for request smuggling, we need to c
 	\caption{Confirm - Target Request}
 	\label{fig:Confirm_Request}
 \end{figure}
-If the target request looks as in figure :
+If the target request looks as in figure \ref{fig:Confirm_Request}, then two types of socket poisoning are possible:
+\begin{itemize}
+	\item \textbf{CL.TE : } 
+	\begin{figure}
+		\includegraphics{images/Confirm_CL.TE}
+		\caption{Confirm - CL.TE Poisoning}
+		\label{fig:Confirm_Request}
+	\end{figure}
+	\item \textbf{TE.CL : }
+	\begin{figure}
+		\includegraphics{images/Confirm_TE.CL}
+		\caption{Confirm - TE.CL Poisoning }
+		\label{fig:Confirm_Request}
+	\end{figure}
+\end{itemize}
 
 \section{Explore}
 \subsection{Case Study for \textit{Confirm} phase}

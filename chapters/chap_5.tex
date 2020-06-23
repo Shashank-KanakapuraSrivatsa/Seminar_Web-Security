@@ -13,7 +13,7 @@ The author in \cite{b6} proposes a step approach to carry out desynchronization 
 \end{figure}
 We will now look at each of the phases in detail:
 \section{Detect}
-The first step is to detect when a server will be vulnerable to desynchronization.  
+The first step is to detect when a server will be vulnerable to desynchronization. A simple method here is to send a request with malicious data and poison the backend. Subsequent back to back requests are then sent the same backend server. If the subsequent requests get an unexpected or erroneous response, we can assume that the response was due to the malicious prefix sent with the first request.  
 \section{Confirm}
 \section{Explore}
 \section{Store}

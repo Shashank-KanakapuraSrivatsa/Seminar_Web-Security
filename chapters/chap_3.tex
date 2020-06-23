@@ -11,7 +11,7 @@ Consider an architecture composed of a chain of systems as depicted in Figure \r
 \section{Core Concept}
 The HTTP Headers mainly used to carry out desynchronization attacks are \textsc{Content-Length} and \textsc{Transfer-Encoding: chunked}. There are two combinations possible : 
 \begin{itemize}
-	\item Using two \textsc{Content-Length} headers. This technique is very simple but is rarely effective as most of the recent systems are designed to selectively reject any requests with multiple \textsc{Content-Length} headers.\\
+	\item Using two \textsc{Content-Length} headers: This technique is very simple but is rarely effective as most of the recent systems are designed to selectively reject any requests with multiple \textsc{Content-Length} headers.\\
 	Below is an example referenced from \cite{b6}:
 	\begin{verbatim}
 	POST / HTTP/1.1
@@ -19,4 +19,6 @@ The HTTP Headers mainly used to carry out desynchronization attacks are \textsc{
 	Content-Length: 6
 	Content-Length: 5
 	\end{verbatim}
+	\item  Using combination of \textsc{Content-Length} and \textsc{Transfer-Encoding: chunked}: This technique can be used to realise practical attacks in real environments. 
+	Below is an example referenced from \cite{b6}
 \end{itemize}

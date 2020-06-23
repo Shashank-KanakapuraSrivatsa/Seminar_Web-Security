@@ -70,6 +70,7 @@ One simple example (as referenced from \cite{b6}) to demonstrate this is to expl
 	\caption{Explore - Request}
 	\label{fig:Explore_Request}
 \end{figure}
+The follow-up request will be re-written by the frontend server before it encounters the $login[email]$ parameter. When the response is received, all the internal headers are revealed. 
 The response to the request in figure \ref{fig:Explore_Request} can be as follows:
 \begin{verbatim}
 Please ensure that your email and password are correct.
@@ -82,7 +83,7 @@ X-TLS-Cipher: ECDHE-RSA-AES128-GCM-SHA256
 X-TLS-Version: TLSv1.2
 x-nr-external-service: external
 \end{verbatim}
-The follow-up request will be re-written by the frontend server before it encounters the $login[email]$ parameter. When the response is received, all the internal headers are revealed. 
+
 \section{Store}
 \subsection{Case Study for \textit{Store} phase}
 \section{Attack}

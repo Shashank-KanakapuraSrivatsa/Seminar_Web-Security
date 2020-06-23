@@ -90,7 +90,16 @@ Once we explore the possible methods of poisoning the servers, we have two possi
 For this method to work, the application needs to support some kind of data storage. If this is supported, the malicious prefix we send can be carefully crafted to contain a storage request. When this is appended to victim's request, it is possible to force the application to store the victim's information such as cookies/headers. 
 \subsection{Case Study for \textit{Store} phase}
 Figure referenced from \cite{b6} demonstrates an example of storing victim's information.
-
+\begin{figure}
+	\includegraphics{images/Store_Request}
+	\caption{Store - Request}
+	\label{fig:Store_Request}
+\end{figure}
+\begin{figure}
+	\includegraphics{images/Store_Response}
+	\caption{Store - Response}
+	\label{fig:Explore_Request}
+\end{figure}
 
 \section{Attack}
 \subsection{Case Study for \textit{Attack} phase}

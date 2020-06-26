@@ -63,36 +63,116 @@
 \@writefile{toc}{\contentsline {section}{\numberline {2.6}HTTP Headers}{5}{section.2.6}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {2.7}HTTP Body}{5}{section.2.7}\protected@file@percent }
 \BKM@entry{id=10,dest={636861707465722E33},srcline={1}}{50726F626C656D2053746174656D656E74}
+\citation{b9}
 \@writefile{toc}{\contentsline {chapter}{\numberline {3}Problem Statement}{6}{chapter.3}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lol}{\addvspace {10\p@ }}
 \@writefile{loa}{\addvspace {10\p@ }}
-\BKM@entry{id=11,dest={636861707465722E34},srcline={1}}{417070726F616368}
-\@writefile{toc}{\contentsline {chapter}{\numberline {4}Approach}{7}{chapter.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces HTTP Desync Attack\relax }}{6}{figure.caption.1}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:HTTP Desync Attack}{{3.1}{6}{HTTP Desync Attack\relax }{figure.caption.1}{}}
+\BKM@entry{id=11,dest={636861707465722E34},srcline={1}}{436F726520436F6E6365707473}
+\BKM@entry{id=12,dest={73656374696F6E2E342E31},srcline={3}}{5573696E672074776F20436F6E74656E742D4C656E6774682068656164657273206669656C64733A}
+\citation{b6}
+\BKM@entry{id=13,dest={73656374696F6E2E342E32},srcline={12}}{5573696E6720636F6D62696E6174696F6E206F6620436F6E74656E742D4C656E67746820616E64205472616E736665722D456E636F64696E673A6368756E6B656420686561646572206669656C64733A}
+\citation{b6}
+\citation{b10}
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}Core Concepts}{7}{chapter.4}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lol}{\addvspace {10\p@ }}
 \@writefile{loa}{\addvspace {10\p@ }}
-\BKM@entry{id=12,dest={636861707465722E35},srcline={1}}{436173652053747564696573}
-\@writefile{toc}{\contentsline {chapter}{\numberline {5}Case Studies}{8}{chapter.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Using two Content-Length headers fields:}{7}{section.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}Using combination of Content-Length and Transfer-Encoding:chunked header fields:}{7}{section.4.2}\protected@file@percent }
+\citation{b6}
+\citation{b6}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Frontend\relax }}{8}{figure.caption.2}\protected@file@percent }
+\newlabel{fig:Frontend}{{4.1}{8}{Frontend\relax }{figure.caption.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces Backend\relax }}{8}{figure.caption.3}\protected@file@percent }
+\newlabel{fig:Backend}{{4.2}{8}{Backend\relax }{figure.caption.3}{}}
+\BKM@entry{id=14,dest={636861707465722E35},srcline={1}}{417070726F616368}
+\citation{b6}
+\BKM@entry{id=15,dest={73656374696F6E2E352E31},srcline={15}}{446574656374}
+\citation{b6}
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}Approach}{9}{chapter.5}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lol}{\addvspace {10\p@ }}
 \@writefile{loa}{\addvspace {10\p@ }}
-\BKM@entry{id=13,dest={636861707465722E36},srcline={1}}{4576616C756174696F6E}
-\@writefile{toc}{\contentsline {chapter}{\numberline {6}Evaluation}{9}{chapter.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}Detect}{9}{section.5.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces Phases of request smuggling\relax }}{9}{figure.caption.4}\protected@file@percent }
+\newlabel{fig:Phases}{{5.1}{9}{Phases of request smuggling\relax }{figure.caption.4}{}}
+\BKM@entry{id=16,dest={73756273656374696F6E2E352E312E31},srcline={32}}{4361736520537475647920666F7220446574656374207068617365}
+\citation{b6}
+\citation{b6}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces CL.TE\relax }}{10}{figure.caption.5}\protected@file@percent }
+\newlabel{fig:CL.TE}{{5.2}{10}{CL.TE\relax }{figure.caption.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces TE.CL\relax }}{10}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:TE.CL}{{5.3}{10}{TE.CL\relax }{figure.caption.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.1}Case Study for \textit  {Detect} phase}{10}{subsection.5.1.1}\protected@file@percent }
+\BKM@entry{id=17,dest={73656374696F6E2E352E32},srcline={37}}{436F6E6669726D}
+\BKM@entry{id=18,dest={73756273656374696F6E2E352E322E31},srcline={39}}{4361736520537475647920666F7220436F6E6669726D207068617365}
+\citation{b6}
+\BKM@entry{id=19,dest={73656374696F6E2E352E33},srcline={62}}{4578706C6F7265}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces Confirm - Target Request\relax }}{11}{figure.caption.7}\protected@file@percent }
+\newlabel{fig:Confirm_Request}{{5.4}{11}{Confirm - Target Request\relax }{figure.caption.7}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}Confirm}{11}{section.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}Case Study for \textit  {Confirm} phase}{11}{subsection.5.2.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.5}{\ignorespaces Confirm - CL.TE Poisoning\relax }}{12}{figure.caption.8}\protected@file@percent }
+\newlabel{fig:Confirm-CL.TE Poisoning}{{5.5}{12}{Confirm - CL.TE Poisoning\relax }{figure.caption.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.6}{\ignorespaces Confirm - TE.CL Poisoning\relax }}{12}{figure.caption.9}\protected@file@percent }
+\newlabel{fig:Confirm-TE.CL Poisoning}{{5.6}{12}{Confirm - TE.CL Poisoning\relax }{figure.caption.9}{}}
+\BKM@entry{id=20,dest={73756273656374696F6E2E352E332E31},srcline={66}}{4361736520537475647920666F72204578706C6F7265207068617365}
+\citation{b6}
+\@writefile{toc}{\contentsline {section}{\numberline {5.3}Explore}{13}{section.5.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.1}Case Study for \textit  {Explore} phase}{13}{subsection.5.3.1}\protected@file@percent }
+\BKM@entry{id=21,dest={73656374696F6E2E352E34},srcline={88}}{53746F7265}
+\BKM@entry{id=22,dest={73756273656374696F6E2E352E342E31},srcline={91}}{4361736520537475647920666F722053746F7265207068617365}
+\citation{b6}
+\citation{b6}
+\BKM@entry{id=23,dest={73656374696F6E2E352E35},srcline={106}}{41747461636B}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.7}{\ignorespaces Explore - Request\relax }}{14}{figure.caption.10}\protected@file@percent }
+\newlabel{fig:Explore_Request}{{5.7}{14}{Explore - Request\relax }{figure.caption.10}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.4}Store}{14}{section.5.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.1}Case Study for \textit  {Store} phase}{14}{subsection.5.4.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.8}{\ignorespaces Store - Request\relax }}{15}{figure.caption.11}\protected@file@percent }
+\newlabel{fig:Store_Request}{{5.8}{15}{Store - Request\relax }{figure.caption.11}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.9}{\ignorespaces Store - Response\relax }}{15}{figure.caption.12}\protected@file@percent }
+\newlabel{fig:Store_Response}{{5.9}{15}{Store - Response\relax }{figure.caption.12}{}}
+\BKM@entry{id=24,dest={73756273656374696F6E2E352E352E31},srcline={114}}{41747461636B206D6574686F6473}
+\BKM@entry{id=25,dest={73756273756273656374696F6E2E352E352E312E31},srcline={116}}{557067726164696E6720585353}
+\citation{b11}
+\BKM@entry{id=26,dest={73756273756273656374696F6E2E352E352E312E32},srcline={118}}{4772617370696E672074686520444F4D}
+\BKM@entry{id=27,dest={73756273756273656374696F6E2E352E352E312E33},srcline={120}}{43444E20436861696E696E67}
+\citation{b12}
+\citation{b13}
+\BKM@entry{id=28,dest={73756273756273656374696F6E2E352E352E312E34},srcline={122}}{57656220436163686520506F69736F6E696E67}
+\citation{b14}
+\@writefile{toc}{\contentsline {section}{\numberline {5.5}Attack}{16}{section.5.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5.1}Attack methods}{16}{subsection.5.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.5.1.1}Upgrading XSS}{16}{subsubsection.5.5.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.5.1.2}Grasping the DOM}{16}{subsubsection.5.5.1.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.5.1.3}CDN Chaining}{16}{subsubsection.5.5.1.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.5.1.4}Web Cache Poisoning}{17}{subsubsection.5.5.1.4}\protected@file@percent }
+\BKM@entry{id=29,dest={636861707465722E36},srcline={1}}{446566656E636520616761696E7374204854545020446573796E632041747461636B73}
+\citation{b6}
+\citation{b15}
+\@writefile{toc}{\contentsline {chapter}{\numberline {6}Defence against HTTP Desync Attacks}{18}{chapter.6}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lol}{\addvspace {10\p@ }}
 \@writefile{loa}{\addvspace {10\p@ }}
-\BKM@entry{id=14,dest={636861707465722E37},srcline={1}}{436F6E636C7573696F6E}
-\@writefile{toc}{\contentsline {chapter}{\numberline {7}Conclusion}{10}{chapter.7}\protected@file@percent }
+\BKM@entry{id=30,dest={636861707465722E37},srcline={1}}{436F6E636C7573696F6E}
+\citation{b5}
+\citation{b6}
+\citation{b6}
+\@writefile{toc}{\contentsline {chapter}{\numberline {7}Conclusion}{19}{chapter.7}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lol}{\addvspace {10\p@ }}
 \@writefile{loa}{\addvspace {10\p@ }}
-\BKM@entry{id=15,dest={636861707465722A2E32},srcline={46}}{4269626C696F677261706879}
+\BKM@entry{id=31,dest={636861707465722A2E3134},srcline={50}}{4269626C696F677261706879}
 \bibcite{b1}{1}
 \bibcite{b2}{2}
 \bibcite{b3}{3}
@@ -101,7 +181,14 @@
 \bibcite{b6}{6}
 \bibcite{b7}{7}
 \bibcite{b8}{8}
-\@writefile{toc}{\contentsline {chapter}{\nonumberline Bibliography}{11}{chapter*.2}\protected@file@percent }
+\bibcite{b9}{9}
+\bibcite{b10}{10}
+\bibcite{b11}{11}
+\bibcite{b12}{12}
+\bibcite{b13}{13}
+\bibcite{b14}{14}
+\bibcite{b15}{15}
+\@writefile{toc}{\contentsline {chapter}{\nonumberline Bibliography}{20}{chapter*.14}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lol}{\addvspace {10\p@ }}

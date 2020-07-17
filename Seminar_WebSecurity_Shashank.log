@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.13)  17 JUL 2020 21:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.13)  17 JUL 2020 22:15
 entering extended mode
 **./Seminar_WebSecurity_Shashank.tex
 (Seminar_WebSecurity_Shashank.tex
@@ -2047,7 +2047,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--4
 
  []
 
-<images/HTTP_Desync.png, id=85, 646.21425pt x 208.98074pt>
+<images/HTTP_Desync.png, id=87, 646.21425pt x 208.98074pt>
 File: images/HTTP_Desync.png Graphic file (type png)
 <use images/HTTP_Desync.png>
 Package pdftex.def Info: images/HTTP_Desync.png  used on input line 7.
@@ -2069,12 +2069,12 @@ es :
 [7
 
 ]
-<images/Frontend.png, id=111, 165.61874pt x 128.27925pt>
+<images/Frontend.png, id=113, 165.61874pt x 128.27925pt>
 File: images/Frontend.png Graphic file (type png)
 <use images/Frontend.png>
 Package pdftex.def Info: images/Frontend.png  used on input line 31.
 (pdftex.def)             Requested size: 165.61833pt x 128.27893pt.
-<images/Backend.png, id=114, 166.82326pt x 154.176pt>
+<images/Backend.png, id=116, 166.82326pt x 154.176pt>
 File: images/Backend.png Graphic file (type png)
 <use images/Backend.png>
 Package pdftex.def Info: images/Backend.png  used on input line 40.
@@ -2090,7 +2090,7 @@ Overfull \vbox (10.2pt too high) has occurred while \output is active []
 
  [8 <./images/Frontend.png> <./images/Backend.png>]
 chapter 5.
-<images/Phases.png, id=125, 556.479pt x 160.80075pt>
+<images/Phases.png, id=127, 556.479pt x 160.80075pt>
 File: images/Phases.png Graphic file (type png)
 <use images/Phases.png>
 Package pdftex.def Info: images/Phases.png  used on input line 10.
@@ -2103,12 +2103,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--19
 [9
 
  <./images/Phases.png>]
-<images/CL.TE.png, id=135, 165.61874pt x 115.02975pt>
+<images/CL.TE.png, id=137, 165.61874pt x 115.02975pt>
 File: images/CL.TE.png Graphic file (type png)
 <use images/CL.TE.png>
 Package pdftex.def Info: images/CL.TE.png  used on input line 21.
 (pdftex.def)             Requested size: 165.61833pt x 115.02946pt.
-<images/TE.CL.png, id=136, 168.02776pt x 113.223pt>
+<images/TE.CL.png, id=138, 168.02776pt x 113.223pt>
 File: images/TE.CL.png Graphic file (type png)
 <use images/TE.CL.png>
 Package pdftex.def Info: images/TE.CL.png  used on input line 27.
@@ -2121,35 +2121,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--36
  []
 
 [10 <./images/CL.TE.png> <./images/TE.CL.png>]
-<images/Confirm_Request.png, id=152, 294.50024pt x 75.8835pt>
+<images/Confirm_Request.png, id=154, 294.50024pt x 75.8835pt>
 File: images/Confirm_Request.png Graphic file (type png)
 <use images/Confirm_Request.png>
 Package pdftex.def Info: images/Confirm_Request.png  used on input line 42.
 (pdftex.def)             Requested size: 294.49951pt x 75.8833pt.
-<images/Confirm_CL.TE.png, id=155, 291.489pt x 195.129pt>
+<images/Confirm_CL.TE.png, id=157, 291.489pt x 195.129pt>
 File: images/Confirm_CL.TE.png Graphic file (type png)
 <use images/Confirm_CL.TE.png>
 Package pdftex.def Info: images/Confirm_CL.TE.png  used on input line 50.
 (pdftex.def)             Requested size: 291.48828pt x 195.12851pt.
-<images/Confirm_TE.CL.png, id=157, 294.50024pt x 248.72925pt>
+<images/Confirm_TE.CL.png, id=159, 294.50024pt x 248.72925pt>
 File: images/Confirm_TE.CL.png Graphic file (type png)
 <use images/Confirm_TE.CL.png>
 Package pdftex.def Info: images/Confirm_TE.CL.png  used on input line 56.
 (pdftex.def)             Requested size: 294.49951pt x 248.72864pt.
  [11 <./images/Confirm_Request.png>] [12 <./images/Confirm_CL.TE.png> <./images
 /Confirm_TE.CL.png>]
-<images/Explore_Request.png, id=177, 251.13824pt x 186.6975pt>
+<images/Explore_Request.png, id=179, 251.13824pt x 186.6975pt>
 File: images/Explore_Request.png Graphic file (type png)
 <use images/Explore_Request.png>
 Package pdftex.def Info: images/Explore_Request.png  used on input line 69.
 (pdftex.def)             Requested size: 251.13763pt x 186.69704pt.
  [13]
-<images/Store_Request.png, id=190, 256.5585pt x 199.947pt>
+<images/Store_Request.png, id=192, 256.5585pt x 199.947pt>
 File: images/Store_Request.png Graphic file (type png)
 <use images/Store_Request.png>
 Package pdftex.def Info: images/Store_Request.png  used on input line 94.
 (pdftex.def)             Requested size: 256.55788pt x 199.9465pt.
-<images/Store_Response.png, id=191, 433.62pt x 340.27126pt>
+<images/Store_Response.png, id=193, 433.62pt x 340.27126pt>
 File: images/Store_Response.png Graphic file (type png)
 <use images/Store_Response.png>
 Package pdftex.def Info: images/Store_Response.png  used on input line 100.
@@ -2208,20 +2208,20 @@ esync-
 [20
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 70.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 70.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 71.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 71.
  (Seminar_WebSecurity_Shashank.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 70.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 70.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 71.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 71.
 Package rerunfilecheck Info: File `Seminar_WebSecurity_Shashank.out' has not ch
 anged.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 47315 strings out of 492450
- 924167 string characters out of 3120004
+ 47317 strings out of 492450
+ 924180 string characters out of 3120004
  1108802 words of memory out of 3000000
- 50758 multiletter control sequences out of 15000+200000
+ 50759 multiletter control sequences out of 15000+200000
  595635 words of font info for 70 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  67i,13n,81p,10089b,877s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2241,9 +2241,9 @@ X 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Users/Shash/AppData/Local/Programs/M
 iKTeX 2.9/fonts/type1/public/lm/lmssbo10.pfb><C:/Users/Shash/AppData/Local/Prog
 rams/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/Shash/AppData/Loca
 l/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
-Output written on Seminar_WebSecurity_Shashank.pdf (21 pages, 539111 bytes).
+Output written on Seminar_WebSecurity_Shashank.pdf (21 pages, 539474 bytes).
 PDF statistics:
- 408 PDF objects out of 1000 (max. 8388607)
- 81 named destinations out of 1000 (max. 500000)
+ 410 PDF objects out of 1000 (max. 8388607)
+ 82 named destinations out of 1000 (max. 500000)
  355 words of extra memory for PDF output out of 10000 (max. 10000000)
 

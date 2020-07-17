@@ -35,7 +35,7 @@ Consider another example for \textbf{TE.CL} in figure \ref{fig:TE.CL}(Referenced
 These observable delays are sufficient to infer that the system has a vulnerability for request smuggling.\\
 
 \section{Confirm}
-Once we are sure that a system is vulnerable for request smuggling, we need to confirm the same with the help of responses that serve as visible proofs. The technique to get such confirmation is by poisoning the backend socket. The follow-up requests we send will fall victim to the earlier poisoning and will return a response to visibly prove that the vulnerability is present. One hindrance here is disconnection. If the first request causes an error, the backend system may have been designed to drop the connection and associated buffers. Such a disconnection will fail the attack. This can be avoided by targeting backend server endpoints which accept POST requests. 
+Once we are sure that a system is vulnerable for request smuggling, we need to confirm the same with the help of responses that serve as visible proofs. The technique to get such confirmation is by poisoning the backend socket. One of the follow-up requests we send will fall victim to the earlier poisoning and will return a response to visibly prove that the vulnerability is present. One hindrance here is disconnection. If the first request causes an error, the backend system may have been designed to drop the connection and associated buffers. Such a disconnection will fail the attack. This can be avoided by targeting backend server endpoints which accept POST requests. 
 \subsection{Case Study for \textit{Confirm} phase}
 \textit{Referenced from \cite{b6}}\\
 \begin{figure}

@@ -30,7 +30,7 @@ To tackle this problem, the author in \cite{b6} proposes an approach which uses 
 \end{figure}
 
 \subsection{Case Study for \textit{Detect} phase}
-Consider the example for \textbf{CL.TE} in figure \ref{fig:CL.TE}(Referenced from \cite{b6}). As \textcolor{myred}{Q} is not a valid chunk size, the frontend will forward only the information highlighted in \textcolor{mygreen}{green} and the backend will timeout waiting for next valid chunk size. \\
+Consider the example for \textbf{CL.TE} in Figure \ref{fig:CL.TE}(Referenced from \cite{b6}). As \textcolor{myred}{Q} is not a valid chunk size, the frontend will forward only the information highlighted in \textcolor{mygreen}{green} and the backend will timeout waiting for next valid chunk size. \\
 Consider another example for \textbf{TE.CL} in figure \ref{fig:TE.CL}(Referenced from \cite{b6}). In this request, \textcolor{mygreen}{0} is explicitly placed to force the server into considering it as the \textit{terminating chunk}. As a result, the server will timeout waiting for \textcolor{myred}{X}.\\
 These observable delays are sufficient to infer that the system has a vulnerability for request smuggling.\\
 

@@ -19,7 +19,7 @@ The HTTP Header fields mainly used to carry out desynchronization attacks are \t
 	\end{verbatim}
 	This technique is valid as per the specifications in RFC 2616\cite{b10} which states : \\
 	\textit{"If a message is received with both a Transfer-Encoding header field and a Content-Length header field, the latter MUST be ignored".}\\
-	The core idea here is to hide the \textsc{Transfer-Encoding:chunked} header field from atleast one system in a chain of systems. It will make sure that the \textsc{Content-Length} header is used as a fallback and this will allow us to desynchronize the whole system.
+	The core idea here is to hide the \textsc{Transfer-Encoding: chunked} header field from atleast one system in a chain of systems. It will make sure that the \textsc{Content-Length} header is used as a fallback and this will allow us to desynchronize the whole system.
 
 We can explain this technique using two simple examples : 
 \begin{itemize}

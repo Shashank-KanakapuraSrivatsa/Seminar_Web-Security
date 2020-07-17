@@ -116,7 +116,7 @@ Several attack methods can be employed and I intend to provide a very brief intr
 \subsubsection{Upgrading XSS}
 Cross-site Scripting(XSS) \cite{b11} enables an attacker to inject malicious scripts on the server. Upgrading XSS method uses request smuggling to rain mass havoc using XSS. Server response containing XSS are sent to numerous random users active on the website. This can exploit the victims in mass and can reveal authentication and cookie information of those victims.  
 \subsubsection{Grasping the DOM}
-If the victim's DOM contains an open redirect, it can be chained with request smuggling and can be controlled to decieve the server to redirect the victim to an address that we specify.  
+If the victim's DOM \cite{b20} contains an open redirect, it can be chained with request smuggling and can be controlled to decieve the server to redirect the victim to an address that we specify.  
 \subsubsection{CDN Chaining}
 Many of the websites use several layers of CDNs \cite{b12} and reverse proxies \cite{b13}. Even though it is difficult to attack such websites, this setup also gives increased opportunities for desynchronization and request smuggling.
 \subsubsection{Web Cache Poisoning}

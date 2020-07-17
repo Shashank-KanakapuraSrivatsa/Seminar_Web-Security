@@ -24,7 +24,7 @@ The HTTP Header fields mainly used to carry out desynchronization attacks are \t
 We can explain this technique using two simple examples : 
 \begin{itemize}
 	\item Take a look at the example in figure \ref{fig:Frontend} which is referenced from \cite{b6}:
-	If the frontend doesn't support chunked encoding, this kind of a request can be sent. Every chunk is constituted by chunk size, followed by a new line and then the contents of the chunk. As frontend ignores chunked encoding, the backend considers the \textsc{Content-Length} header, appending the malicious message to the next request and thus desynchronizing the system.
+	If the frontend doesn't support chunked encoding, this kind of a request can be sent. Every chunk is constituted by a chunk size, followed by a new line and then the contents of the chunk. As frontend ignores chunked encoding, the backend considers the \textsc{Content-Length} header, appending the malicious message to the next request and thus desynchronizing the system.
 \end{itemize}
 
 \begin{figure}

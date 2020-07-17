@@ -1,7 +1,7 @@
 \chapter{Core Concepts}
 The HTTP Header fields mainly used to carry out desynchronization attacks are \textsc{Content-Length} and \textsc{Transfer-Encoding: chunked}. There are two combinations possible : 
 \section{Using two Content-Length header fields:}
-	This technique is very simple but is rarely effective as most of the recent systems are designed to selectively reject any requests with multiple \textsc{Content-Length} headers.\\
+	This technique is very simple but is rarely effective as most of the modern systems are designed to selectively reject any requests with multiple \textsc{Content-Length} headers.\\
 	Below is an example HTTP request, referenced from \cite{b6}:
 	\begin{verbatim}
 	POST / HTTP/1.1
